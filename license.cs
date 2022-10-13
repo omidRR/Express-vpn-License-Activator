@@ -1,6 +1,7 @@
 ﻿using Guna.UI2.WinForms;
 using System;
 using System.Diagnostics;
+using System.Management;
 using System.Net;
 using System.Reflection;
 using System.Security.Principal;
@@ -27,12 +28,18 @@ namespace Express_vpn_License_Activator
 
         }
 
+        static ManagementClass managClass = new ManagementClass("win32_processor");
+        ManagementObjectCollection managCollec = managClass.GetInstances();
         private void Form1_Load(object sender, EventArgs e)
         {
             try
             {
-                guna2TextBox1.Text = siticoneDeviceInfo1.GetProcessorId;
-
+                foreach (ManagementObject managObj in managCollec)
+                {
+                    guna2TextBox1.Text = managObj.Properties["processorID"].Value.ToString();
+                    break;
+                }
+                label1.Text = Assembly.GetExecutingAssembly().GetName().Version.ToString();
                 var wi = WindowsIdentity.GetCurrent();
                 var wp = new WindowsPrincipal(wi);
                 bool runAsAdmin = wp.IsInRole(WindowsBuiltInRole.Administrator);
@@ -80,7 +87,12 @@ namespace Express_vpn_License_Activator
         {
             try
             {
-                var myDeviceID = siticoneDeviceInfo1.GetProcessorId;
+                string myDeviceID = null;
+                foreach (ManagementObject managObj in managCollec)
+                {
+                    myDeviceID = managObj.Properties["processorID"].Value.ToString();
+                    break;
+                };
                 WebClient web = new WebClient();
                 guna2GradientButton1.Enabled = false;
                 await Task.Run(() =>

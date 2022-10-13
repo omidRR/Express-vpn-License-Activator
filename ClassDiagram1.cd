@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ThemeContainer154" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>zh2gdXA4UkAF66NQg+3+AEEoqVkCinSgKCkgzRWLwJU=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThemeControl154" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ihyAdXA4QAAFaaJAg+VyAAEIqUkCgjSgKCkgjAFLgIQ=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThemeShare" Collapsed="true">
+    <Position X="23" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEAAoAABAAQAAAAAAQAAAAAAAAAAAAAAEAQAE=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrecisionTimer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAIAQAQAAAAAAAAEAAEICAAAAAAAAAAg=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GhostTheme" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAIAgAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostButton" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAIAgAAEAAAAAEAAAAAgAAAAgAAgBAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostProgressbar" Collapsed="true">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAABAAAABIAgAAIAAAAAEAQAAAAAAAgAACAAAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostCheckbox" Collapsed="true">
+    <Position X="17" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAKAgAAAAAAAABAAAACAIAABAAAARAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostRadiobutton" Collapsed="true">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAKAgAAAAAAAABgAAACAIAABAAAAREA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostTabControl" Collapsed="true">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAIAAAAAAAAAACAEAAgAAAAAAAQA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostTabControlLagFree" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAwAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostListBoxPretty" Collapsed="true">
+    <Position X="12.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAACAIAwFAAAAAAgAAAAAAAABAAAAAEAAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostListboxLessPretty" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostComboBox" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAIAAAAAAABAACAAAAABBAAAAAAAAIAAAAAQAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostGroupBox" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostTextBox" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEFAAAAAAAAAAIBwAAAEQAkAAiQAEAAAAA4CAACQAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostControlBox" Collapsed="true">
+    <Position X="14.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAAAAAAIAgAAAAAACABAABAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Bloom" Collapsed="true">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAABAAAAAAIAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="MouseState" Collapsed="true">
+    <Position X="19.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAIAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ThemesVi.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -41,17 +41,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.siticoneControlBox1 = new Siticone.Desktop.UI.WinForms.SiticoneControlBox();
+            this.siticoneControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.label7 = new System.Windows.Forms.Label();
             this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.siticoneGradientButton5 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.siticoneGradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.siticoneGradientButton4 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.siticoneGradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.siticoneGradientButton3 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
-            this.siticoneGradientButton2 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
-            this.siticoneGradientButton1 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.siticoneGradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.siticoneGradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.siticoneGradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
@@ -173,7 +173,7 @@
             // siticoneControlBox1
             // 
             this.siticoneControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.siticoneControlBox1.ControlBoxType = Siticone.Desktop.UI.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.siticoneControlBox1.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
             this.siticoneControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(42)))), ((int)(((byte)(45)))));
             this.siticoneControlBox1.HoverState.Parent = this.siticoneControlBox1;
             this.siticoneControlBox1.IconColor = System.Drawing.Color.White;
@@ -461,10 +461,10 @@
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton2;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton siticoneGradientButton2;
+        private Guna.UI2.WinForms.Guna2GradientButton siticoneGradientButton1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-        private Siticone.Desktop.UI.WinForms.SiticoneControlBox siticoneControlBox1;
+        private Guna.UI2.WinForms.Guna2ControlBox siticoneControlBox1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -476,11 +476,11 @@
         private Guna.UI2.WinForms.Guna2Chip guna2Chip1;
         private MaterialSkin.Controls.MaterialCard materialCard1;
         private System.Windows.Forms.Panel panel1;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton3;
+        private Guna.UI2.WinForms.Guna2GradientButton siticoneGradientButton3;
         private System.Windows.Forms.Panel panel3;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton5;
+        private Guna.UI2.WinForms.Guna2GradientButton siticoneGradientButton5;
         private System.Windows.Forms.Panel panel2;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton4;
+        private Guna.UI2.WinForms.Guna2GradientButton siticoneGradientButton4;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;

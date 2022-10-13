@@ -36,14 +36,14 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.siticoneGradientButton1 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.siticoneGradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.siticoneGradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.siticoneDragControl1 = new Siticone.Desktop.UI.WinForms.SiticoneDragControl(this.components);
-            this.siticoneGradientButton2 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.siticoneDragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,6 +102,38 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(736, 395);
             this.guna2Panel1.TabIndex = 5;
+            // 
+            // siticoneGradientButton2
+            // 
+            this.siticoneGradientButton2.Animated = true;
+            this.siticoneGradientButton2.AutoRoundedCorners = true;
+            this.siticoneGradientButton2.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneGradientButton2.BorderRadius = 26;
+            this.siticoneGradientButton2.CheckedState.Parent = this.siticoneGradientButton2;
+            this.siticoneGradientButton2.CustomImages.Parent = this.siticoneGradientButton2;
+            this.siticoneGradientButton2.CustomizableEdges.BottomLeft = false;
+            this.siticoneGradientButton2.CustomizableEdges.TopRight = false;
+            this.siticoneGradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.siticoneGradientButton2.DisabledState.Parent = this.siticoneGradientButton2;
+            this.siticoneGradientButton2.FillColor = System.Drawing.Color.Black;
+            this.siticoneGradientButton2.FillColor2 = System.Drawing.Color.DarkMagenta;
+            this.siticoneGradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.siticoneGradientButton2.ForeColor = System.Drawing.Color.White;
+            this.siticoneGradientButton2.HoverState.Parent = this.siticoneGradientButton2;
+            this.siticoneGradientButton2.Image = global::Express_vpn_License_Activator.Properties.Resources.settings_48px;
+            this.siticoneGradientButton2.IndicateFocus = true;
+            this.siticoneGradientButton2.Location = new System.Drawing.Point(19, 109);
+            this.siticoneGradientButton2.Name = "siticoneGradientButton2";
+            this.siticoneGradientButton2.ShadowDecoration.Parent = this.siticoneGradientButton2;
+            this.siticoneGradientButton2.Size = new System.Drawing.Size(381, 54);
+            this.siticoneGradientButton2.TabIndex = 6;
+            this.siticoneGradientButton2.Text = "Open ExpressVPN";
+            this.siticoneGradientButton2.UseTransparentBackground = true;
+            this.siticoneGradientButton2.Click += new System.EventHandler(this.siticoneGradientButton2_Click);
             // 
             // siticoneGradientButton1
             // 
@@ -165,6 +197,16 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "3.If you see a repair, click on the repair Button.";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Calibri Light", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label5.Location = new System.Drawing.Point(14, 63);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(311, 27);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "2.Click \"Open ExpressVPN\" Button";
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -181,48 +223,6 @@
             this.siticoneDragControl1.TransparentWhileDrag = true;
             this.siticoneDragControl1.UseTransparentDrag = true;
             // 
-            // siticoneGradientButton2
-            // 
-            this.siticoneGradientButton2.Animated = true;
-            this.siticoneGradientButton2.AutoRoundedCorners = true;
-            this.siticoneGradientButton2.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneGradientButton2.BorderRadius = 26;
-            this.siticoneGradientButton2.CheckedState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.CustomImages.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.CustomizableEdges.BottomLeft = false;
-            this.siticoneGradientButton2.CustomizableEdges.TopRight = false;
-            this.siticoneGradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.siticoneGradientButton2.DisabledState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.FillColor = System.Drawing.Color.Black;
-            this.siticoneGradientButton2.FillColor2 = System.Drawing.Color.DarkMagenta;
-            this.siticoneGradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.siticoneGradientButton2.ForeColor = System.Drawing.Color.White;
-            this.siticoneGradientButton2.HoverState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Image = global::Express_vpn_License_Activator.Properties.Resources.settings_48px;
-            this.siticoneGradientButton2.IndicateFocus = true;
-            this.siticoneGradientButton2.Location = new System.Drawing.Point(19, 109);
-            this.siticoneGradientButton2.Name = "siticoneGradientButton2";
-            this.siticoneGradientButton2.ShadowDecoration.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Size = new System.Drawing.Size(381, 54);
-            this.siticoneGradientButton2.TabIndex = 6;
-            this.siticoneGradientButton2.Text = "Open ExpressVPN";
-            this.siticoneGradientButton2.UseTransparentBackground = true;
-            this.siticoneGradientButton2.Click += new System.EventHandler(this.siticoneGradientButton2_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri Light", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label5.Location = new System.Drawing.Point(14, 63);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(311, 27);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "2.Click \"Open ExpressVPN\" Button";
-            // 
             // lastpage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -234,6 +234,7 @@
             this.Controls.Add(this.guna2ControlBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "lastpage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "lastpage";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
@@ -254,9 +255,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton1;
-        private Siticone.Desktop.UI.WinForms.SiticoneDragControl siticoneDragControl1;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton2;
+        private Guna.UI2.WinForms.Guna2GradientButton siticoneGradientButton1;
+        private Guna.UI2.WinForms.Guna2DragControl siticoneDragControl1;
+        private Guna.UI2.WinForms.Guna2GradientButton siticoneGradientButton2;
         private System.Windows.Forms.Label label5;
     }
 }
