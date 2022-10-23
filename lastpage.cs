@@ -23,7 +23,6 @@ namespace Express_vpn_License_Activator
 
             }
         }
-
         private void guna2ControlBox1_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
@@ -35,7 +34,6 @@ namespace Express_vpn_License_Activator
             {
                 Process.Start(@"C:\Program Files (x86)\ExpressVPN\expressvpn-ui\ExpressVPN.exe");
                 siticoneGradientButton2.Visible = false;
-
             }
             catch(Exception exception)
             {

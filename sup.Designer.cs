@@ -52,7 +52,7 @@
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox1.Location = new System.Drawing.Point(0, 141);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(546, 29);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(543, 29);
             this.guna2ControlBox1.TabIndex = 0;
             this.guna2ControlBox1.Click += new System.EventHandler(this.guna2ControlBox1_Click);
             // 
@@ -100,7 +100,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(42)))), ((int)(((byte)(45)))));
-            this.ClientSize = new System.Drawing.Size(546, 170);
+            this.ClientSize = new System.Drawing.Size(543, 170);
             this.Controls.Add(this.siticoneGradientButton1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2ControlBox1);
