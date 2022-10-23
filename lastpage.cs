@@ -26,7 +26,6 @@ namespace Express_vpn_License_Activator
         {
             System.Windows.Forms.Application.Exit();
         }
-
         private void siticoneGradientButton2_Click(object sender, EventArgs e)
         {
             try
