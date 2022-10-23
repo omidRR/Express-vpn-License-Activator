@@ -10,7 +10,6 @@ namespace Express_vpn_License_Activator
         {
             InitializeComponent();
         }
-
         private void siticoneGradientButton1_Click(object sender, EventArgs e)
         {
             try
